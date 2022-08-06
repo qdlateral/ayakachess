@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+
+            background-image: url("forehea.png");
+            background-size: 100vh 100vh;
+            background-position: bottom;
+        }
+
+        iframe {
+            margin: 0;
+            position: absolute;
+            top: 10%;
+            left: 43.5%;
+            transform: translate(-50%, -50%);
+
+            width: 40vh;
+            height: 60vh;
+
+            -ms-transform: scale(calc(40vh/40));
+            -moz-transform: scale(0.65);
+            -o-transform: scale(0.65);
+            -webkit-transform: scale(0.65);
+            transform: scale(0.65);
+
+            -ms-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            -o-transform-origin: 0 0;
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://www.chess.com/daily_puzzle" frameborder="0"></iframe>
+</body>
+</html>
